@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Zensonaton/ChunkBordium/main/src/main/resources/assets/chunkbordium/icon.png" align="right" width=200>
+
 # Chunk Bordium
 
 **Fabric mod that stops Minecraft world generation beyond configured borders.**
