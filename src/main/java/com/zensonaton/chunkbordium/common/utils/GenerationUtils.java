@@ -1,7 +1,7 @@
-package com.zensonaton.chunkbordium.utils;
+package com.zensonaton.chunkbordium.common.utils;
 
-import com.zensonaton.chunkbordium.ChunkBordiumMod;
-import com.zensonaton.chunkbordium.config.ModConfig;
+import com.zensonaton.chunkbordium.common.ChunkBordiumMod;
+import com.zensonaton.chunkbordium.common.config.ModConfig;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.border.WorldBorder;

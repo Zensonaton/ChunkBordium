@@ -1,7 +1,7 @@
-package com.zensonaton.chunkbordium.mixin;
+package com.zensonaton.chunkbordium.common.mixin;
 
-import com.zensonaton.chunkbordium.access.ChunkGeneratorAccess;
-import com.zensonaton.chunkbordium.utils.GenerationUtils;
+import com.zensonaton.chunkbordium.common.access.ChunkGeneratorAccess;
+import com.zensonaton.chunkbordium.common.utils.GenerationUtils;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.StructureWorldAccess;

@@ -1,4 +1,4 @@
-package com.zensonaton.chunkbordium.mixin;
+package com.zensonaton.chunkbordium.common.mixin;
 
 import net.minecraft.server.network.SpawnLocating;
 import org.spongepowered.asm.mixin.Mixin;

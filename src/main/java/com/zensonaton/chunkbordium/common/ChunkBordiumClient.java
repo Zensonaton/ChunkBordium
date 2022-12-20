@@ -1,4 +1,4 @@
-package com.zensonaton.chunkbordium;
+package com.zensonaton.chunkbordium.common;
 
 import draylar.omegaconfiggui.OmegaConfigGui;
 import net.fabricmc.api.ClientModInitializer;

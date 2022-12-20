@@ -4,11 +4,6 @@
 	"package": "com.zensonaton.chunkbordium.common.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ChunkGeneratorMixin",
-		"ChunkStatusMixin",
-		"ConfiguredCarverMixin",
-		"NoiseChunkGeneratorMixin",
-		"SpawnLocatingMixin"
 	],
 	"client": [
 	],

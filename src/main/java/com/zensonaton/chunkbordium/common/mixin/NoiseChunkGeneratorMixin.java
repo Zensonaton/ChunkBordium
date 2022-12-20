@@ -1,10 +1,10 @@
-package com.zensonaton.chunkbordium.mixin;
+package com.zensonaton.chunkbordium.common.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import com.zensonaton.chunkbordium.access.ChunkGeneratorAccess;
-import com.zensonaton.chunkbordium.access.ConfiguredCarverAccess;
-import com.zensonaton.chunkbordium.utils.GenerationUtils;
+import com.zensonaton.chunkbordium.common.access.ChunkGeneratorAccess;
+import com.zensonaton.chunkbordium.common.access.ConfiguredCarverAccess;
+import com.zensonaton.chunkbordium.common.utils.GenerationUtils;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.registry.RegistryEntry;

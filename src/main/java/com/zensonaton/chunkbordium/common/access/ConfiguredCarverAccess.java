@@ -1,8 +1,8 @@
-package com.zensonaton.chunkbordium.access;
+package com.zensonaton.chunkbordium.common.access;
 
 import net.minecraft.server.world.ServerWorld;
 
-public interface ChunkGeneratorAccess {
+public interface ConfiguredCarverAccess {
     void setWorld(ServerWorld world);
 
     ServerWorld getWorld();

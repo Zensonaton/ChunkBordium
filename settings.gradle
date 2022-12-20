@@ -4,6 +4,14 @@ pluginManagement {
             name = 'Fabric'
             url = 'https://maven.fabricmc.net/'
         }
+        mavenCentral()
         gradlePluginPortal()
     }
 }
+
+rootProject.name = "chunkbordium"
+
+// Include other Minecraft versions.
+//include("mc16")
+include("mc18")
+//include("mc19")

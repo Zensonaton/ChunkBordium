@@ -1,6 +1,6 @@
-package com.zensonaton.chunkbordium.config;
+package com.zensonaton.chunkbordium.common.config;
 
-import com.zensonaton.chunkbordium.ChunkBordiumMod;
+import com.zensonaton.chunkbordium.common.ChunkBordiumMod;
 import draylar.omegaconfig.api.Comment;
 import draylar.omegaconfig.api.Config;
 import org.jetbrains.annotations.Nullable;
@@ -10,7 +10,6 @@ public class ModConfig implements Config {
     public String getName() {
         return ChunkBordiumMod.MOD_ID;
     }
-
     @Override
     public @Nullable String getModid() {
         return ChunkBordiumMod.MOD_ID;
@@ -31,6 +30,4 @@ public class ModConfig implements Config {
     public Integer CenterZ = 0;
     @Comment(value = "This setting determines the radius of the generator, specified in chunks. To convert a block radius to a chunk radius, divide the block radius by 16.")
     public Integer ChunkRadius = 30;
-
-
 }

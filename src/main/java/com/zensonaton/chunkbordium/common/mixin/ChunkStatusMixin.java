@@ -1,6 +1,6 @@
-package com.zensonaton.chunkbordium.mixin;
+package com.zensonaton.chunkbordium.common.mixin;
 
-import com.zensonaton.chunkbordium.access.ChunkGeneratorAccess;
+import com.zensonaton.chunkbordium.common.access.ChunkGeneratorAccess;
 import net.minecraft.server.world.ServerLightingProvider;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.structure.StructureManager;

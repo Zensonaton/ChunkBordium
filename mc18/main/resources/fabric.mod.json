@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "chunkbordium",
 	"version": "${version}",
-	"name": "Chunk Bordium",
+	"name": "Chunk Bordium MC 1.18",
 	"description": "Stops world generation beyond a configured border.",
 	"authors": [
 		"Zensonaton"
@@ -15,22 +15,16 @@
 	"icon": "assets/chunkbordium/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"client": [
-			"com.zensonaton.chunkbordium.common.ChunkBordiumClient"
-		],
-		"main": [
-			"com.zensonaton.chunkbordium.common.ChunkBordiumMod"
-		],
-		"preLaunch": [
-			"com.zensonaton.chunkbordium.common.ChunkBordiumPreLaunch"
+		"chunkbordium-versioned": [
+			""
 		]
 	},
 	"mixins": [
-		"chunkbordium.mixins.json"
+		"chunkbordium-mc18.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.9",
 		"fabric": "*",
-		"minecraft": ["1.16.x", "1.18.x", "1.19.x"]
+		"minecraft": "1.18.x"
 	}
 }

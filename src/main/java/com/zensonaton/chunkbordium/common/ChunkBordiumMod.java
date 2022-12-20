@@ -1,6 +1,6 @@
-package com.zensonaton.chunkbordium;
+package com.zensonaton.chunkbordium.common;
 
-import com.zensonaton.chunkbordium.config.ModConfig;
+import com.zensonaton.chunkbordium.common.config.ModConfig;
 import draylar.omegaconfig.OmegaConfig;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
